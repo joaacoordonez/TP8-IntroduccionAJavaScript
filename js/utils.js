@@ -15,3 +15,8 @@ function calcularEdad(fechaNacimiento)
 
     return edad;
 }
+
+function verificarFruta(frutaBuscada, frutas) 
+{
+    return frutas.includes(frutaBuscada);
+}
